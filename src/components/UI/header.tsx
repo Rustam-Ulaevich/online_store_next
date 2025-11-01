@@ -63,7 +63,7 @@ export default function Header() {
       </NavbarContent>
 
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex"> // если убрать класс то появится Логин в хедаре
+        <NavbarItem className="hidden lg:flex">   {/*если убрать класс то появится Логин в хедаре */}
           <Link href="/">Логин</Link>
         </NavbarItem>
         <NavbarItem>
